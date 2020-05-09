@@ -1,0 +1,200 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+* { margin: 0; padding: 0; }
+canvas {
+    display: block; 
+    position: absolute;
+    top: 150px;
+    opacity: 1;;
+
+}
+
+body{
+    padding: 2px;
+    background: white;
+    font-family: sans-serif;    
+
+}
+
+.container{
+    position: relative;
+    z-index: 1000;
+    
+}
+
+.header{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+.heading{
+    font-size: 350%;
+}
+
+.header p{
+    margin-top: 10px;
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+form{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+form div{
+    margin-top: 20px;
+    border: 1px solid #B39922;
+    border-radius: 10px;
+    padding: 5px;
+    background: #B3A563;
+}
+label{
+    font-weight: 600;
+}
+
+input{
+    border: 1px solid #B3A563;
+    border-radius: 5px;
+    margin 1px;
+}
+
+button{
+    border: 2px solid #B39922;
+    border-radius: 5px;
+    padding:2px 4px;
+    background: #B3A563; 
+    text-decoration: none;
+}
+
+.odiv{
+    margin-top:-30px;
+}
+
+.oimg{
+    border: 1px solid rgba(0,0,0,0);
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 0px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    
+}
+
+.otext{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    border: 2px solid orange;
+    background: black;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.otext p{
+    font-size: 140%;
+}
+
+.text{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        /*jssor slider thumbnail skin 101 css*/
+        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+        .jssort101 .p:hover{padding:2px;}
+        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+        .jssort101 .p:hover.pdn{padding:0;}
+        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
