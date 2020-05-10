@@ -1,6 +1,10 @@
 # Image-Captioning
- Image Captioning is the project in which an image is provided to a machine learning model which comprises of learned weights and in result of a input image the output we get is the caption for this image.\n
+ Image Captioning is the project in which an image is provided to a machine learning model which comprises of learned weights and in result of a input image the output we get is the caption for this image.
+ 
+ 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRha1gbVfprcd4lw3U64I0rh510lyTiSedOMlwRZ_QC4SAQLmbq&usqp=CAU)
+
+
 # Technology Used:
  1. Python
  2. Deep Neural Networks
