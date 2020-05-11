@@ -93,12 +93,19 @@ button{
 }
 
 .oimg{
-    border: 1px solid rgba(0,0,0,0);
-    width: 90%;
-    margin-left: 5%;
-    padding: 10px 0px;
-    background: rgba(255,255,255,0.1);
+    border: 1px solid #B3A563;
+    background: #B3A563;
+    /*width: 50%;
+    margin-left: 35%;
+    padding: 40px 40px;
+    
     border-radius: 10px;
+    height: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;*/
+    
+    text-align: center;
     
 }
 
@@ -108,7 +115,7 @@ button{
     align-content: center;
     margin-top: 20px;
     border: 2px solid orange;
-    background: black;
+    background: orange;
     padding: 5px;
     border-radius: 100px;
 }

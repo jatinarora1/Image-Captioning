@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Image Captioning</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 
 
 
@@ -31,13 +31,18 @@
 
             <div class="row">
                 <div class="oimg">
-                    <img src="{{your_result['image']}}">
+                    <img style=" width: 400px; height: 300px; padding: 10px 10px 10px 10px; margin-left: 40px" src="{{your_result['image']}}">
                 </div>
                 <div class="otext">
                     <p class="text"> Generated Caption : </p>
                     <p> <b>{{ your_result['caption'] }} </b> </p>
                 </div>
             </div>
+            
+        {% endif %}
+        {% if your_result == 0 %}
+
+            <h1>Please Go Back!!and Please Input Image!!</h1>
             
         {% endif %}
 
