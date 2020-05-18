@@ -121,18 +121,6 @@ If you are using a virtualenv, you may want to avoid using sudo:
    $ pip3 install pandas
 ```
 
-# OS
-**Install OS from PyPI (recommended):**
-Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
-```
-   $ sudo pip3 install OS
-```
-
-If you are using a virtualenv, you may want to avoid using sudo:
-
-```
-   $ pip3 install OS
-```
 # Image
 **Install Image from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
@@ -145,18 +133,7 @@ If you are using a virtualenv, you may want to avoid using sudo:
 ```
    $ pip3 install pillow
 ```
-# json
-**Install json from PyPI (recommended):**
-Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
-```
-   $ sudo pip3 install json
-```
 
-If you are using a virtualenv, you may want to avoid using sudo:
-
-```
-   $ pip3 install json
-```
 # nltk
 **Install pandas from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
