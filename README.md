@@ -1,10 +1,5 @@
 # Image-Captioning
  Image Captioning is the project in which an image is provided to a machine learning model which comprises of learned weights and in result of a input image the output we get is the caption for this image.
- 
- 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRha1gbVfprcd4lw3U64I0rh510lyTiSedOMlwRZ_QC4SAQLmbq&usqp=CAU)
-
-
 # Technology Used:
  1. Python
  2. Deep Neural Networks
@@ -121,6 +116,18 @@ If you are using a virtualenv, you may want to avoid using sudo:
    $ pip3 install pandas
 ```
 
+# OS
+**Install OS from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $ sudo pip3 install OS
+```
+
+If you are using a virtualenv, you may want to avoid using sudo:
+
+```
+   $ pip3 install OS
+```
 # Image
 **Install Image from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
@@ -133,7 +140,18 @@ If you are using a virtualenv, you may want to avoid using sudo:
 ```
    $ pip3 install pillow
 ```
+# json
+**Install json from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $ sudo pip3 install json
+```
 
+If you are using a virtualenv, you may want to avoid using sudo:
+
+```
+   $ pip3 install json
+```
 # nltk
 **Install pandas from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
@@ -198,7 +216,7 @@ If you are using a virtualenv, you may want to avoid using sudo:
 ```
 # How To Run?
 In the terminal run the following snippet of code.
-``` 
+```
    $ python3 app.py
 ```
 app.py is the main file to host the local server
